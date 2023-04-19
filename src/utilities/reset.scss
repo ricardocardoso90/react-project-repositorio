@@ -1,0 +1,26 @@
+@use '../utilities/variables.scss';
+
+@mixin reset {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 14px;
+    background-color: variables.$bg-color;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+  }
+
+  input,
+  button {
+    color: #222;
+    font-size: 14px;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}

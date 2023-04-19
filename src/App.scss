@@ -1,0 +1,7 @@
+@use './utilities/reset.scss';
+@use './utilities/variables.scss';
+
+@use './styles/box.scss';
+@use './styles/listRepository.scss';
+
+@include reset.reset;
