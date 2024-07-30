@@ -1,12 +1,18 @@
-# Pesquisar por Repositórios.
+## Projeto: Repositório
 
-Tecnologias utilizadas: React + TypeScript.
+**Tecnologias utilizadas:**
 
-### Instalação:
+- [Typescript]()
+- [Axios]()
+- [React Icons]()
+- [React Navigation]()
+- [Styled Components]()
 
-- `npm install`
+## Instalação:
 
-### Para rodar:
+- `npm create vite@latest`
+- `npm i ou npm install`
 
-- `npm start`
-- `npm run start`
+## Para rodar:
+
+- `npm run dev`
